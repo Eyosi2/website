@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-compatible" content="ie-edge">
+    <title>responsive side menu</title>
+    <link rel="stylesheet" href="parallaxwebsite/style.css">
+  </head>
+  <body>
+    <nav class="navbar">
+      <span class="open-slide">
+        <a href="#" onclick="opensidemenu()"&times;>
+          <svg width="30" height="30">
+            <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+            <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+            <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+          </svg>
+        </a>
+      </span>
+
+      <ul class="navbar-nav">
+        <li><a href="#">Linkden</a></li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Website</a></li>
+        </ul>
+    </nav>
+
+    <div id="side-menu" class="side-nav">
+      <a href="#" class="btn-close" onclick="closeslidemenu()">&times;</a>
+      <a href="#">Linkden</a>
+      <a href="#">Twitter</a>
+      <a href="#">Website</a>
+    </div>
+
+    <div id="main">
+
+    </div>
+
+    <script>
+      function openSlideMenu(){
+        document.getElementById('side-menu').style.width= '250px';
+      }
+      document.getElementById('main').style.marginLeft= '250px';
+    }
+
+
+    function closeSlideMenu(){
+      document.getElementById('side-menu').style.width= '0';
+    }
+    document.getElementById('main').style.marginLeft= '0x';
+  }
+    </script>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="device-width,inital-scale=1.0">
+    <meta http-equiv="x-UA-compatible" content="ie-edge">
+    <title>I'm Eyosiyas! Website demo</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="pimg1">
+      <div class="ptext">
+        <span class="border">
+         HELLO.
+        </span>
+      </div>
+    </div>
+
+    <section class="section section-dark">
+      <h2></h2>
+      <p>
+        
+      </p>
+    </section>
+
+    <div class="pimg2">
+      <div class="ptext">
+        <span class="border trans">
+             a Student.
+        </span>
+      </div>
+    </div>
+
+    <section class="section section-dark">
+      <h2>I'M EYOSIYAS!.</h2>
+      <p>
+         I'm a grade 11B student from school of tomorrow.
+          i am a natural science student.
+          i like cold drinks and make my own foods sometimes. 
+      </p>
+    </section>
+
+    <div class="pimg3">
+      <div class="ptext">
+        <span class="border trans">
+          My skills.
+        </span>
+      </div>
+    </div>
+
+    <section class="section section-dark">
+      <h2>coding,design,web development,Muscian,producer</h2>
+      <p>
+         i never had i chance to learn coding but then, i thought me self with the help of some peoples at age 15; so after i had a quite knowledge i made more advancments on AIE(Artefical intellegence Engineering) programming,coding and graphics designing.i also produce beats with my free time and write lyrics too.I also draw and design diffrent things.
+      </p>
+    </section>
+
+      <section class="section section-dark">
+      <h2>GET IN TOUCH</h2>
+      <p>
+         Love producing beats and beats making musics as much as i do? lets talk about how cool they are!
+        we can make musics while coding.
+      </p>
+    </section>
+    <div class="pimg1">
+      <div class="ptext">
+        <span class="border">
+         CONTACT ME.
+        </span>
+      </div>
+    </div>
+    <small>Copyright2021,@Eyosiyas Mesele</small>
+ </body>
+</html>
+ 
